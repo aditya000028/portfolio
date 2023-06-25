@@ -1,13 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+
+import DashboardPage from "./pages/Dashboard";
+import MiscellaneousPage from "./pages/Miscellaneous";
+import ProjectsPage from "./pages/Projects";
+import WorkExperiencePage from "./pages/WorkExperience";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Testing Changes</h1>
-      </header>
+    <div>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<DashboardPage />} />
+        <Route path="/work-experience" element={<WorkExperiencePage />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/miscellaneous" element={<MiscellaneousPage />} />
+      </Routes>
     </div>
   );
 }
