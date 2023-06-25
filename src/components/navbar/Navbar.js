@@ -4,22 +4,30 @@ import classes from "./Navbar.module.css";
 
 function Navbar() {
   return (
-      <nav className={classes.nav}>
-        <ul className={classes.items}>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/work-experience">Work Experience</Link>
-          </li>
-          <li>
-            <Link to="/projects">Projects</Link>
-          </li>
-          <li>
-            <Link to="/miscellaneous">Miscellaneous</Link>
-          </li>
-        </ul>
-      </nav>
+    <nav className={classes.nav}>
+      <ul className={classes.items}>
+        <li>
+          <Link to="/">
+            <button>Home</button>
+          </Link>
+        </li>
+        <li>
+          <Link to="/work-experience">
+            <button>Work Experience</button>
+          </Link>
+        </li>
+        <li>
+          <Link to="/projects">
+            <button>Projects</button>
+          </Link>
+        </li>
+        <li>
+          <Link to="/miscellaneous">
+            <button>Miscellaneous</button>
+          </Link>
+        </li>
+      </ul>
+    </nav>
   );
 }
 

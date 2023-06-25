@@ -3,10 +3,38 @@
   display: inline-block;
   background-color: black;
   color: white;
+  height: 10vh;
+  position: sticky;
+  top: 0;
 }
 
 .items {
   list-style: none;
   display: flex;
   justify-content: space-around;
+  height: 100%;
+}
+
+ul {
+  padding-left: 0;
+  align-items: center;
+  margin: 0;
+  height: 100%;
+}
+
+li {
+  height: 100%;
+}
+
+button {
+  color: white;
+  background-color: black;
+  border: none;
+  height: 100%;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
 }
