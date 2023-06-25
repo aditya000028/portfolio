@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 
-import DashboardPage from "./pages/Dashboard";
-import MiscellaneousPage from "./pages/Miscellaneous";
-import ProjectsPage from "./pages/Projects";
-import WorkExperiencePage from "./pages/WorkExperience";
+import DashboardPage from "./pages/dashboard/Dashboard";
+import MiscellaneousPage from "./pages/miscellaneous/Miscellaneous";
+import ProjectsPage from "./pages/projects/Projects";
+import WorkExperiencePage from "./pages/work-experience/WorkExperience";
 import Navbar from "./components/navbar/Navbar";
 
 function App() {
