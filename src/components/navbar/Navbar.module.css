@@ -1,0 +1,12 @@
+.nav {
+  width: 100%;
+  display: inline-block;
+  background-color: black;
+  color: white;
+}
+
+.items {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
