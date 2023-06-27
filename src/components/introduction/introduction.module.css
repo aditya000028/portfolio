@@ -1,5 +1,26 @@
-.main {
+.introduction {
   display: flex;
   width: 100%;
   height: 100vh;
+  background-image: linear-gradient(black, rgb(54, 54, 54));
+  justify-content: flex-end
+}
+
+.content {
+  display: flex;
+  position: relative;
+  right: 10%;
+  width: 50%;
+  align-items: center;
+}
+
+.content img {
+  margin: 10px;
+  border-radius: 50%;
+  width: 35%;
+  height: 35%;
+}
+
+.introductionText {
+  color: white;
 }
