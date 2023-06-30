@@ -4,8 +4,8 @@ import classes from "./Navbar.module.css";
 
 function Navbar() {
   return (
-    <nav className={classes.nav}>
-      <ul className={classes.items}>
+    <nav className={classes.mainNav}>
+      <ul className={classes.navItems}>
         <li>
           <Link to="/">
             <button>Home</button>
