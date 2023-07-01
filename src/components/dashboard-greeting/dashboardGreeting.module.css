@@ -1,0 +1,35 @@
+.wrapper {
+  height: 100vh;
+  position: relative;
+}
+
+.wrapper .overlayContent {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
+.wrapper .overlayContent .greeting {
+  color: white;
+  text-align: left;
+  font-size: 200%;
+}
+
+.wrapper .overlayContent button {
+  padding: 16px;
+  background-color: black;
+  color: white;
+  border-radius: 16px;
+  border-color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+.wrapper .overlayContent button:hover {
+  color: black;
+  background-color: white;
+}
+
+.particlesBackground {
+  height: 100%;
+}

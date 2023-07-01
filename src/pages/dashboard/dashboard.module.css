@@ -2,24 +2,3 @@
   height: 100%;
   width: 100%;
 }
-
-.dashboard .wrapper {
-  height: 100vh;
-  position: relative;
-}
-
-.dashboard .wrapper .overlayContent {
-  position: absolute;
-  top: 20%;
-  left: 15%;
-}
-
-.dashboard .wrapper .overlayContent .greeting {
-  color: white;
-  text-align: left;
-  font-size: 200%;
-}
-
-.particlesBackground {
-  height: 100%;
-}
