@@ -2,14 +2,13 @@ import classes from "./dashboard.module.css";
 import Introduction from "../../components/introduction/introduction";
 import Education from "../../components/education/education";
 import Interests from "../../components/interests/interests";
-import DownloadButton from '../../components/download-button/downloadButton';
 import { INTRO } from "../../strings";
 
 import { useCallback } from "react";
 import { Particles } from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
-const OPTIONS = {
+const PARTICLE_OPTIONS = {
   particles: {
     number: {
       value: 80,
@@ -87,7 +86,7 @@ function DashboardPage() {
       <div className={classes.wrapper}>
         <Particles
           init={particlesInit}
-          options={OPTIONS}
+          options={PARTICLE_OPTIONS}
           className={classes.particlesBackground}
         />
         <div className={classes.overlayContent}>
@@ -96,7 +95,6 @@ function DashboardPage() {
             <h3>{INTRO.HEADLINE}</h3>
             <h3>{INTRO.WELCOME}</h3>
           </div>
-          <DownloadButton />
         </div>
       </div>
       <Introduction />
