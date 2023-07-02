@@ -1,7 +1,8 @@
-import { useCallback } from "react";
+import { useCallback, useState } from "react";
 import { Particles } from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { INTRO, MISC } from "../../strings";
+import { Storage } from "aws-amplify";
 
 import classes from "./dashboardGreeting.module.css";
 
@@ -78,6 +79,42 @@ function DashboardGreeting() {
     await loadFull(engine);
   }, []);
 
+  const [downloading, setIsDownloading] = useState(false);
+
+  function downloadResume() {
+    if (downloading) return;
+    setIsDownloading(true);
+
+    Storage.get("U - Resume 4.pdf", {
+      download: true,
+    })
+      .then((result) => {
+        downloadFile(result.Body, "aditya-resume");
+      })
+      .catch((error) => {
+        console.log(error);
+      })
+      .finally(() => {
+        setIsDownloading(false);
+      });
+  }
+
+  function downloadFile(blob, filename) {
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = filename || "download";
+    const clickHandler = () => {
+      setTimeout(() => {
+        URL.revokeObjectURL(url);
+        a.removeEventListener("click", clickHandler);
+      }, 150);
+    };
+    a.addEventListener("click", clickHandler, false);
+    a.click();
+    return a;
+  }
+
   return (
     <div className={classes.wrapper}>
       <Particles
@@ -91,7 +128,10 @@ function DashboardGreeting() {
           <h3>{INTRO.HEADLINE}</h3>
           <h3>{INTRO.WELCOME}</h3>
         </div>
-        <button>{MISC.DOWNLOAD_RESUME}</button>
+        {/* TODO: Have a spinner instead of this text */}
+        <button onClick={downloadResume}>
+          {downloading ? "Downloading" : MISC.DOWNLOAD_RESUME}
+        </button>
       </div>
     </div>
   );
