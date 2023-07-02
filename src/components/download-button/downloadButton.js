@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Storage } from "aws-amplify";
 import classes from "./downloadButton.module.css";
+import { MISC } from '../../strings';
 
 function DownloadButton(props) {
   const [downloading, setIsDownloading] = useState(false);
@@ -12,16 +13,12 @@ function DownloadButton(props) {
     Storage.get(props.fileToDownload, {
       download: true,
     })
-      .then((result) => {
-        downloadBlob(result.Body, props.newFileName);
-      })
+      .then((result) => downloadBlob(result.Body, props.newFileName))
       .catch((error) => {
         // TODO: Show some error to the user
         console.log(error);
       })
-      .finally(() => {
-        setIsDownloading(false);
-      });
+      .finally(() => setIsDownloading(false));
   }
 
   function downloadBlob(blob, filename) {
@@ -45,7 +42,7 @@ function DownloadButton(props) {
 
   return (
     <button className={classes.downloadButton} onClick={downloadResume}>
-      {downloading ? "Downloading" : props.buttonText}
+      {downloading ? MISC.DOWNLOADING : props.buttonText}
     </button>
   );
 }
