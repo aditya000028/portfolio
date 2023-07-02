@@ -15,21 +15,6 @@
   font-size: 200%;
 }
 
-.wrapper .overlayContent button {
-  padding: 16px;
-  background-color: black;
-  color: white;
-  border-radius: 16px;
-  border-color: white;
-  font-size: large;
-  font-weight: bold;
-}
-
-.wrapper .overlayContent button:hover {
-  color: black;
-  background-color: white;
-}
-
 .particlesBackground {
   height: 100%;
 }

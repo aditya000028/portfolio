@@ -18,5 +18,6 @@ export const SECTION_EDUCATION = {
 
 export const MISC = {
   DOWNLOAD_RESUME: "Download Resume",
-  
+  RESUME_NAME: "U - Resume 4.pdf",
+  NEW_RESUME_NAME: "Aditya Gupta - Resume"
 }
