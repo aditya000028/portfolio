@@ -1,4 +1,4 @@
-.nav {
+.mainNav {
   width: 100%;
   display: inline-block;
   background-color: black;
@@ -9,25 +9,25 @@
   z-index: 1;
 }
 
-.items {
+.mainNav .navItems {
   list-style: none;
   display: flex;
   justify-content: space-around;
   height: 100%;
 }
 
-ul {
+.mainNav ul {
   padding-left: 0;
   align-items: center;
   margin: 0;
   height: 100%;
 }
 
-li {
+.mainNav ul li {
   height: 100%;
 }
 
-button {
+.mainNav ul li button {
   color: white;
   background-color: black;
   border: none;
@@ -35,7 +35,7 @@ button {
   transition-duration: 0.4s;
 }
 
-button:hover {
+.mainNav ul li button:hover {
   background-color: white;
   color: black;
 }
