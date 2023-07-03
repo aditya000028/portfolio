@@ -1,23 +1,29 @@
 .education {
   display: flex;
+  position: relative;
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgb(54, 54, 54), rgb(166, 166, 166));
-  justify-content:flex-start;
-}
-
-.education .content {
-  display: flex;
-  position: relative;
-  left: 10%;
-  width: 50%;
+  justify-content: flex-start;
   align-items: center;
 }
 
-.content img {
-  margin: 10px;
+.education::before {
+  content: "";
+  background-image: url('../../../public/assets/images/SFU.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  filter: brightness(20%);
+}
+
+.education .content {
+  position: relative;
+  left: 10%;
   width: 50%;
-  height: 35%;
+  padding: 16px;
 }
 
 .educationText {
