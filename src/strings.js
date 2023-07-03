@@ -25,3 +25,12 @@ export const MISC = {
   NEW_RESUME_NAME: "Aditya Gupta - Resume",
   NEW_TRANSCRIPT_NAME: "Aditya Gupta - SFU Transcript"
 }
+
+export const CONTACT_ME = {
+  LINKEDIN: "LinkedIn",
+  LINKEDIN_LINK: "https://www.linkedin.com/in/aditya-gupta-a28131181/",
+  GITHUB: "Github",
+  GITHUB_LINK: "https://github.com/aditya000028",
+  EMAIL: "aditya.gupta_chd@yahoo.ca",
+  PHONE: "+1 (425)-524-3452"
+}
