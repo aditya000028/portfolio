@@ -10,7 +10,6 @@ function Introduction() {
           <p>{SECTION_INTRODUCTION.ABOUT_ME}</p>
           <p>{SECTION_INTRODUCTION.CURRENTLY}</p>
         </div>
-        <img src="/assets/images/ProfilePicture.jpeg" alt="Profile headshot" />
       </div>
     </div>
   );
