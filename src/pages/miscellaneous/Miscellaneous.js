@@ -1,5 +1,7 @@
+import UnderConstruction from "../../components/under-construction/underConstruction";
+
 function MiscellaneousPage() {
-  return <div>MiscellaneousPage</div>;
+  return <UnderConstruction />;
 }
 
 export default MiscellaneousPage;
