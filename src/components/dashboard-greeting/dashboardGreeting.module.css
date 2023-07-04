@@ -1,0 +1,20 @@
+.wrapper {
+  height: 100vh;
+  position: relative;
+}
+
+.wrapper .overlayContent {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
+.wrapper .overlayContent .greeting {
+  color: white;
+  text-align: left;
+  font-size: 200%;
+}
+
+.particlesBackground {
+  height: 100%;
+}

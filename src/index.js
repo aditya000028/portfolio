@@ -1,13 +1,30 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter } from "react-router-dom";
+import { Amplify } from "aws-amplify";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+Amplify.configure({
+  Auth: {
+    identityPoolId: process.env.REACT_APP_AWS_IDENTITY_POOL_ID, //REQUIRED - Amazon Cognito Identity Pool ID
+    region: process.env.REACT_APP_AWS_S3_REGION, // REQUIRED - Amazon Cognito Region
+  },
+  Storage: {
+    AWSS3: {
+      bucket: process.env.REACT_APP_AWS_S3_BUCKET_NAME, // REQUIRED -  Amazon S3 bucket name
+      region: process.env.REACT_APP_AWS_S3_REGION
+    },
+  },
+});
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
