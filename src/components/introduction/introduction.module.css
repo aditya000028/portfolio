@@ -9,7 +9,7 @@
 
 .introduction::before {
   content: "";
-  background-image: url('../../../public/assets/images/AboutMe.jpeg');
+  background-image: url('../../../public/assets/images/AboutMe.jpg');
   background-size: cover;
   position: absolute;
   top: 0px;
