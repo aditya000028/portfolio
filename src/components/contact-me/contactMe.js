@@ -8,13 +8,13 @@ function ContactMe() {
     <div className={classes.contactMe}>
       <ul>
         <li>
-          <a href={CONTACT_ME.LINKEDIN_LINK} target="_blank">
+          <a href={CONTACT_ME.LINKEDIN_LINK} target="_blank" rel="noreferrer author">
             <AiFillLinkedin className={classes.icon} />
             <p>{CONTACT_ME.LINKEDIN}</p>
           </a>
         </li>
         <li>
-          <a href={CONTACT_ME.GITHUB_LINK} target="_blank">
+          <a href={CONTACT_ME.GITHUB_LINK} target="_blank" rel="noreferrer author">
             <AiFillGithub className={classes.icon} />
             <p>{CONTACT_ME.GITHUB}</p>
           </a>
