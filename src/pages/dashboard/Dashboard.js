@@ -1,7 +1,6 @@
 import classes from "./dashboard.module.css";
 import Introduction from "../../components/introduction/introduction";
 import Education from "../../components/education/education";
-import Interests from "../../components/interests/interests";
 import DashboardGreeting from "../../components/dashboard-greeting/dashboardGreeting";
 
 function DashboardPage() {
@@ -10,7 +9,6 @@ function DashboardPage() {
       <DashboardGreeting />
       <Introduction />
       <Education />
-      <Interests />
     </div>
   );
 }
