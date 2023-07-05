@@ -1,10 +1,17 @@
 import UnderConstruction from "../../components/under-construction/underConstruction";
-import WorkExperienceGreeting from "../../components/work-experience-greeting/workExperienceGreeting";
+import PageGreeting from '../../components/page-greeting/pageGreeting';
+import { WORK_EXPERIENCE_GREETING } from '../../strings';
 
 function WorkExperiencePage() {
+
+  const WORK_EXPERIENCE_TEXT = [
+    "Work",
+    "Experience"
+  ];
+
   return (
     <div>
-      <WorkExperienceGreeting />
+      <PageGreeting mainText={WORK_EXPERIENCE_TEXT} description={WORK_EXPERIENCE_GREETING.DESCRIPTION} />
       <UnderConstruction />
     </div>
   );

@@ -1,4 +1,4 @@
-.workExperienceGreeting {
+.pageGreeting {
   width: 100%;
   height: 100%;
   min-height: 100vh;
@@ -8,7 +8,7 @@
   background-color: black;
 }
 
-.workExperienceGreeting .content {
+.pageGreeting .content {
   width: 100%;
   height: 100%;
   color: white;
@@ -17,15 +17,15 @@
   flex-wrap: wrap;
 }
 
-.workExperienceGreeting .workExperienceDescription {
+.pageGreeting .description {
   display: flex;
   align-items: center;
 }
 
-.workExperienceGreeting .content .workExperienceText {
+.pageGreeting .content .mainText {
   font-size: 200%;
 }
 
-.workExperienceGreeting .content .workExperienceText h1 {
+.pageGreeting .content .mainText h1 {
   margin: 0;
 }
