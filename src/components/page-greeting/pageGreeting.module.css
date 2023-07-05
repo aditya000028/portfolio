@@ -20,6 +20,8 @@
 .pageGreeting .description {
   display: flex;
   align-items: center;
+  width: 40%;
+  justify-content: flex-end;
 }
 
 .pageGreeting .content .mainText {

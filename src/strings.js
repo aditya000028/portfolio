@@ -39,5 +39,5 @@ export const CONTACT_ME = {
 export const WORK_EXPERIENCE_GREETING = {
   WORK: "Work",
   EXPERIENCE: "Experience",
-  DESCRIPTION: "Some random text"
+  DESCRIPTION: "I have completed two internships both as a Full Stack Developer, lasting a total of a year. My first internship was with PNI Digital Media from January - April 2020. Initially commiting to a 12 month long internship, it was unfortunately cut short due to COVID-19. My second internship was with Visier from January - August 2022. I have learned quite a bit from both of these internships, especially growing in front-end development."
 }

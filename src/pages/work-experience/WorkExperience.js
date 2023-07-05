@@ -5,8 +5,8 @@ import { WORK_EXPERIENCE_GREETING } from '../../strings';
 function WorkExperiencePage() {
 
   const WORK_EXPERIENCE_TEXT = [
-    "Work",
-    "Experience"
+    WORK_EXPERIENCE_GREETING.WORK,
+    WORK_EXPERIENCE_GREETING.EXPERIENCE
   ];
 
   return (
