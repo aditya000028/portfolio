@@ -62,6 +62,10 @@
   width: 60%;
 }
 
+.skills {
+  margin: 8px;
+}
+
 .skills * {
   color: beige;
   margin: 4px;
