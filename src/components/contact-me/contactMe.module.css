@@ -4,7 +4,7 @@
   height: 100%;
   align-items: center;
   background-color: black;
-  color: white;
+  color: beige;
 }
 
 .contactMe ul {
@@ -22,12 +22,12 @@
 
 .contactMe ul li a {
   text-decoration: none;
-  color: white;
+  color: beige;
   display: flex;
   align-items: center;
 }
 
 .contactMe ul li .icon {
-  color: white;
+  color: beige;
   margin: 5px;
 }
