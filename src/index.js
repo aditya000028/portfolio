@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { Amplify } from "aws-amplify";
+import ScrollToTop from "./components/scrollToTop";
 
 Amplify.configure({
   Auth: {
@@ -14,7 +15,7 @@ Amplify.configure({
   Storage: {
     AWSS3: {
       bucket: process.env.REACT_APP_AWS_S3_BUCKET_NAME, // REQUIRED -  Amazon S3 bucket name
-      region: process.env.REACT_APP_AWS_S3_REGION
+      region: process.env.REACT_APP_AWS_S3_REGION,
     },
   },
 });
@@ -23,6 +24,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+      <ScrollToTop />
       <App />
     </BrowserRouter>
   </React.StrictMode>

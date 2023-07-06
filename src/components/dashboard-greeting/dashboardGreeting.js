@@ -1,7 +1,7 @@
 import { useCallback } from "react";
 import { Particles } from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import { INTRO, MISC } from "../../strings";
+import { HOME_GREETING, MISC } from "../../strings";
 
 import classes from "./dashboardGreeting.module.css";
 import DownloadButton from "../download-button/downloadButton";
@@ -88,9 +88,9 @@ function DashboardGreeting() {
       />
       <div className={classes.overlayContent}>
         <div className={classes.greeting}>
-          <h1>{INTRO.GREETING}</h1>
-          <h3>{INTRO.HEADLINE}</h3>
-          <h3>{INTRO.WELCOME}</h3>
+          <h1>{HOME_GREETING.GREETING}</h1>
+          <h3>{HOME_GREETING.HEADLINE}</h3>
+          <h3>{HOME_GREETING.WELCOME}</h3>
         </div>
         <DownloadButton buttonText={MISC.DOWNLOAD_RESUME} fileToDownload={MISC.RESUME_NAME} newFileName={MISC.NEW_RESUME_NAME} />
       </div>
