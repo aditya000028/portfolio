@@ -1,14 +1,14 @@
 import classes from "./introduction.module.css";
-import { SECTION_INTRODUCTION } from "../../strings";
+import { HOME_SECTION_INTRODUCTION } from "../../strings";
 
 function Introduction() {
   return (
     <div className={classes.introduction}>
       <div className={classes.content}>
         <div className={classes.introductionText}>
-          <h1>{SECTION_INTRODUCTION.GREETING}</h1>
-          <p>{SECTION_INTRODUCTION.ABOUT_ME}</p>
-          <p>{SECTION_INTRODUCTION.CURRENTLY}</p>
+          <h1>{HOME_SECTION_INTRODUCTION.GREETING}</h1>
+          <p>{HOME_SECTION_INTRODUCTION.ABOUT_ME}</p>
+          <p>{HOME_SECTION_INTRODUCTION.CURRENTLY}</p>
         </div>
       </div>
     </div>

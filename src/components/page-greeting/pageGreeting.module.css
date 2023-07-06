@@ -1,0 +1,48 @@
+.pageGreeting {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+.pageGreeting .pageTitle {
+  display: flex;
+  height: 100%;
+  min-height: 100vh;
+  min-width: fit-content;
+  flex-grow: 1;
+  width: 40%;
+  background-color: beige;
+  color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+.pageGreeting .pageTitle .mainText {
+  display: flex;
+  flex-direction: column;
+  font-size: 200%;
+}
+
+.pageGreeting .pageTitle .mainText h1 {
+  margin: 0;
+}
+
+.pageGreeting .pageDescription {
+  display: flex;
+  flex-grow: 1;
+  height: 100%;
+  min-height: 100vh;
+  width: 60%;
+  background-color: black;
+  color: beige;
+  align-items: center;
+  justify-content: center;
+}
+
+.pageGreeting .pageDescription .descriptionText {
+  display: flex;
+  width: 70%;
+}
