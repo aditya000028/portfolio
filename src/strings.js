@@ -99,3 +99,36 @@ export const WORK_EXPERIENCE_SECTION_PNI_DIGITAL_MEDIA = {
   IMAGE_PATH: "/assets/images/PNI-Media-logo.png",
   IMAGE_ALT: "PNI Media Logo",
 };
+
+export const PROJECTS_GREETING = {
+  PROJECTS: "Projects",
+  DESCRIPTION:
+    "Some projects description",
+};
+
+export const PROJECTS_SECTION_PORTFOLIO = {
+  NAME: "Portfolio",
+  PROJECT_TYPE: "Web Application",
+  DESCRIPTIONS: [
+    "This website! I have made many other web applications before but I haven't made too many of them public to the world. Publishing a real website has always been a goal of mine, but I never had the time and wasn't sure about the goal of the website. But after graduating and in the midst of a seeking work opportunities, I finally decided to pursue my goal. What better website is there other than one about yourself?",
+    "I first visualized the website, and the different parts of it. With the help of Figma, I practiced my UI/UX skills to design the different pages and components. After analyzing various tools, I decided to use React to develop the front-end portion of the application. I created various re-usable components, navigation, and used core React concepts to create the functionality. I used CSS for styling, and greatly improved my ability to create a beautiful (I hope) and consistent UI for an application. I also utilized packages such as MUI and react-icons to create the website.",
+    "The area I improved the most upon is using cloud technologies. This website is powered by AWS, where I used multiple AWS services to show you this application. I first created AWS IAM policies and roles to allow access to objects stored in an AWS S3 bucket. I then created an AWS Cognito Identity Pool and attached the IAM policy to this pool to allow access to any visiting user. I then used AWS Amplify to connect the service to the Github repository and create CI/CD pipelines. Finally, I was able to deploy the application. With the help of AWS Route 53, I will soon be able to aquire a custom domain with a SSL certificate."
+  ],
+  SKILLS: [
+    "React",
+    "Javascript",
+    "HTML",
+    "CSS",
+    "UI/UX",
+    "Cloud Technologies",
+    "AWS",
+    "AWS Amplify",
+    "AWS Cognito",
+    "AWS S3",
+    "AWS IAM",
+    "CI/CD",
+    "Git"
+  ],
+  IMAGE_PATH: "/assets/images/portofaditya-mobile-home-greeting.png",
+  IMAGE_ALT: "Port of Aditya home greeting",
+};
