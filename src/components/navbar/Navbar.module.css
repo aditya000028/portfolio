@@ -2,7 +2,7 @@
   width: 100%;
   display: inline-block;
   background-color: black;
-  color: white;
+  color: beige;
   height: 10vh;
   position: sticky;
   top: 0;
@@ -28,7 +28,7 @@
 }
 
 .mainNav ul li button {
-  color: white;
+  color: beige;
   background-color: black;
   border: none;
   height: 100%;
@@ -36,6 +36,6 @@
 }
 
 .mainNav ul li button:hover {
-  background-color: white;
+  background-color: beige;
   color: black;
 }
