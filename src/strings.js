@@ -193,3 +193,26 @@ export const PROJECTS_SECTION_LYRICAL = {
   IMAGE_PATH: null,
   IMAGE_ALT: null,
 };
+
+export const PROJECTS_SECTION_SABS = {
+  NAME: "SABS",
+  PROJECT_TYPE: "Database/Web Application",
+  DESCRIPTIONS: [
+    "Having no knowledge of SQL and database, I decided to take a Database Systems course at SFU. After the fundamentals of SQL and databases, and then complex SQL queries, we were tasked with creating a project. So, I got in a group with 3 friends to create an application which mimicked an E-commerce application for a general store.",
+    "The requirement for this project included having the basic SQL queries, but also to write multiple complex join queries, assertions, cascading and more. So using Python and Flask, we created features seen in common e-commerce applications, such as viewing, selecting, deleting items, maintaining a shopping cart, track past purchases, and mocking a payment user flow. These features required me to practice my architectural skills by desiging the database schema to handle the complex SQL queries in an SQLite database. To give the website a visual appeal, we utilized Bootstrap with HTML and CSS.",
+    "In addition to being a developer, I also took on a Product Owner role, where I was able to create issues, goals, deadlines, meeting times, and assigned tasks. I believe my communication skills are what propel me to the front of the competition, and so I was able to create an open and collaborative environment where group members were not afraid to voice their opinions. In the end, group members would often come to me for help and direction, even though I was not the most tech savvy at the time. This showcases my excellent leadership, organizational, and interpersonal skills."
+  ],
+  SKILLS: [
+    "Python",
+    "Flask",
+    "SQL",
+    "SQLite",
+    "HTML",
+    "CSS",
+    "Bootstrap",
+    "Database Design",
+    "UI/UX"
+  ],
+  IMAGE_PATH: null,
+  IMAGE_ALT: null,
+};

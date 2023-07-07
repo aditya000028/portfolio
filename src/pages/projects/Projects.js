@@ -3,7 +3,8 @@ import {
   PROJECTS_GREETING,
   PROJECTS_SECTION_PORTFOLIO,
   PROJECTS_SECTION_BAYTREE,
-  PROJECTS_SECTION_LYRICAL
+  PROJECTS_SECTION_LYRICAL,
+  PROJECTS_SECTION_SABS
 } from "../../strings";
 import Experience from "../../components/experience/experience";
 
@@ -41,6 +42,14 @@ function ProjectsPage() {
         skills={PROJECTS_SECTION_LYRICAL.SKILLS}
         image={PROJECTS_SECTION_LYRICAL.IMAGE_PATH}
         altText={PROJECTS_SECTION_LYRICAL.IMAGE_ALT}
+      />
+      <Experience
+        title={PROJECTS_SECTION_SABS.NAME}
+        subtitle={PROJECTS_SECTION_SABS.PROJECT_TYPE}
+        descriptions={PROJECTS_SECTION_SABS.DESCRIPTIONS}
+        skills={PROJECTS_SECTION_SABS.SKILLS}
+        image={PROJECTS_SECTION_SABS.IMAGE_PATH}
+        altText={PROJECTS_SECTION_SABS.IMAGE_ALT}
       />
     </div>
   );
