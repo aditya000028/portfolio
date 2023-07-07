@@ -103,7 +103,7 @@ export const WORK_EXPERIENCE_SECTION_PNI_DIGITAL_MEDIA = {
 export const PROJECTS_GREETING = {
   PROJECTS: "Projects",
   DESCRIPTION:
-    "Some projects description",
+    "Coding is not just something I studied do for work, it is also my passion. I have mostly focused on creating web applications, but is also includes working with databased, cloud infrastructure, Docker containers, and more. Below are some of the projects I would like to highlight, which include school and personal projects.",
 };
 
 export const PROJECTS_SECTION_PORTFOLIO = {
@@ -163,4 +163,33 @@ export const PROJECTS_SECTION_BAYTREE = {
   ],
   IMAGE_PATH: "/assets/images/Baytree-mentor-dashboard.png",
   IMAGE_ALT: "BayTree mentor dashboard",
+};
+
+export const PROJECTS_SECTION_LYRICAL = {
+  NAME: "Lyrical",
+  PROJECT_TYPE: "Web/Cloud Application",
+  DESCRIPTIONS: [
+    "After taking a university course where I learned about Micorservices architecture and using AWS technologies, I wanted to further expand my skills. I wanted to create an application where I would be able to combine my passion for music with this knowledge. Therefore, I built a microservices application which was capable of searching songs, lyrics, and creating a user profile.",
+    "Using Java and Spring Boot, I got to work. I used my knowledge of MVC (model-view-controller) pattern to design the application and creating the various components. For the searching functionality, I used the Shazam and Genius APIs to fetch the song titles and lyrics.",
+    "I heavily used AWS services for this project. For the login functionality, I used AWS Cognito to create user and identity pools to have authenticated and unauthenticated users. I also attached AWS IAM policies to each of these identities. Then for communication between the application and the AWS RDS, I created an AWS API Gateway to handle incoming requests. I defined paths, methods, and models for incoming data which would then talk to AWS Lambda functions. These functions were also written in Java, which would in turn talk to the database. Finally I used AWS Elastic Beanstalk to provision and host the web application.",
+    "This project helped me get familiar with AWS and Microservices much more, and it expanded my knowledge on building an application and integrating it with cloud technologies."
+  ],
+  SKILLS: [
+    "Microservices",
+    "Java",
+    "Spring Boot",
+    "AWS",
+    "AWS EC2",
+    "AWS Cognito",
+    "AWS RDS",
+    "MySQL",
+    "AWS Lambda",
+    "AWS API Gateway",
+    "REST API",
+    "Git",
+    "HTML",
+    "CSS"
+  ],
+  IMAGE_PATH: null,
+  IMAGE_ALT: null,
 };

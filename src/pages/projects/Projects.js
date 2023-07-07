@@ -2,7 +2,8 @@ import PageGreeting from "../../components/page-greeting/pageGreeting";
 import {
   PROJECTS_GREETING,
   PROJECTS_SECTION_PORTFOLIO,
-  PROJECTS_SECTION_BAYTREE
+  PROJECTS_SECTION_BAYTREE,
+  PROJECTS_SECTION_LYRICAL
 } from "../../strings";
 import Experience from "../../components/experience/experience";
 
@@ -32,6 +33,14 @@ function ProjectsPage() {
         skills={PROJECTS_SECTION_BAYTREE.SKILLS}
         image={PROJECTS_SECTION_BAYTREE.IMAGE_PATH}
         altText={PROJECTS_SECTION_BAYTREE.IMAGE_ALT}
+      />
+      <Experience
+        title={PROJECTS_SECTION_LYRICAL.NAME}
+        subtitle={PROJECTS_SECTION_LYRICAL.PROJECT_TYPE}
+        descriptions={PROJECTS_SECTION_LYRICAL.DESCRIPTIONS}
+        skills={PROJECTS_SECTION_LYRICAL.SKILLS}
+        image={PROJECTS_SECTION_LYRICAL.IMAGE_PATH}
+        altText={PROJECTS_SECTION_LYRICAL.IMAGE_ALT}
       />
     </div>
   );
