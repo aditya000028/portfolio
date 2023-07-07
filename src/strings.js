@@ -216,3 +216,29 @@ export const PROJECTS_SECTION_SABS = {
   IMAGE_PATH: null,
   IMAGE_ALT: null,
 };
+
+export const PROJECTS_SECTION_FITCHECK = {
+  NAME: "Fitcheck",
+  PROJECT_TYPE: "Android Application",
+  DESCRIPTIONS: [
+    "Living in a mobile first world, I was always interested in developing and publishing a mobile application that anyone can have on their phones. After seeing the dominance and the impact that social media applications have on people, our group of 4 and I decided to make just that. This app was envisioned around users being able to share their outfits and view others for inspiration. It would have features such as signing up with identity providers, sneind friend requests, uploading outfit pictures, notifications and more.",
+    "Our group and I used Kotlin and Android Studio to develop the functionalities, and XML to style the UI. Using the MVVM architecture (Model-view-view model), we were able to create a smooth and responsive user experience.",
+    "For saving data, we utilized Firebase services. We integrated our app with Firebase Authentication to authenticate users, and edit their profiles. Profile features included changing passwords, email, and profile picture. In addition, users each had their own settings, and were able to configure notification preferences for uploading pictures and daily upload reminders.",
+    "In order to save data, we needed to create the database design. Since we decided to use Firebase's Realtime Database, we were introduced to NoSQL databases for the first time. Wanting to expand my knowledge and being curious about the workings of a NoSQL database, my partner and I stepped up to take on this challenge. We were able to design the database for efficient access and were able to avoid getting unnecessary data. We also designed the retrieval and storage methods for Firebase Cloud Storage, where all the outfit pictures were kept.",
+  ],
+  SKILLS: [
+    "Android",
+    "Kotlin",
+    "XML",
+    "UI/UX",
+    "Firebase",
+    "MVVM",
+    "Git",
+    "Android Studio",
+    "Mobile",
+    "NoSQL",
+    "Database Design"
+  ],
+  IMAGE_PATH: "/assets/images/Fitcheck-upload-pic.png",
+  IMAGE_ALT: "Fitcheck uploading picture",
+};
