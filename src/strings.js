@@ -132,3 +132,35 @@ export const PROJECTS_SECTION_PORTFOLIO = {
   IMAGE_PATH: "/assets/images/portofaditya-mobile-home-greeting.png",
   IMAGE_ALT: "Port of Aditya home greeting",
 };
+
+export const PROJECTS_SECTION_BAYTREE = {
+  NAME: "BayTree",
+  PROJECT_TYPE: "Web Application",
+  DESCRIPTIONS: [
+    "During my time in university, I was given the opportunity to work with a real client. In this course, we worked with BayTree - a non profit mentoring organization based in the UK. BayTree was doing too much manual work, where every record of mentors and mentees was on paper. This time consuming method forced them to reach out to SFU for help on modernizing. Their requirement was to have a web application which the admin, mentors, and mentees could access.",
+    "In this group project of approximately 4-5 people, I took on the Product Owner and Developer roles. Therefore, I was responsible for communicating with the clients to understand their needs and priorities to ensure we build them an appropriate application. I communciated with the client on Zoom to note down their needs and feedback and iteratively improve our application. I also used Gitlab to create and prioritize issues and keep the backlog organized.",
+    "One of the two main priorities was to build an API which mimicked an external Database API that BayTree was using. This was quite a challenge as we had limited resources on the workings of the API, and it was poorly documented. So using Python and Django, my team and I were able to create the REST API which mimicked this external database/application. I was also able to create the schema in a MySQL database which was hosted inside of a Docker container and write SQL queries to perform CRUD operations.",
+    "The other main priority that we were able to address was to improve logging. The current state of the application had little to no logging coverage. So to improve logging while minimally affecting the code, I created a middleware which logged information about requests and responses. I then gathered generated logs from the Docker container using the FluentBit plugin, and uploaded them to AWS CloudWatch and Grafana. To do this, I had to create and configure monitoring and logging dashboards on these cloud technologies.",
+    "Although BayTree was happy with our application, it is not yet deployed due to them doing their due diligence and comparing other platforms that would also fit their needs. But this was an excellent experience for me as I had the opportunity to learn new technologies and work with a real client."
+  ],
+  SKILLS: [
+    "Python",
+    "Django",
+    "MySQL",
+    "Database Design",
+    "REST API",
+    "JSON",
+    "XML",
+    "AWS CloudWatch",
+    "Logging",
+    "Docker",
+    "React",
+    "HTML",
+    "CSS",
+    "Git",
+    "Communication",
+    "Requirements Engineering"
+  ],
+  IMAGE_PATH: "/assets/images/Baytree-mentor-dashboard.png",
+  IMAGE_ALT: "BayTree mentor dashboard",
+};
