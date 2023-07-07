@@ -103,7 +103,7 @@ export const WORK_EXPERIENCE_SECTION_PNI_DIGITAL_MEDIA = {
 export const PROJECTS_GREETING = {
   PROJECTS: "Projects",
   DESCRIPTION:
-    "Coding is not just something I studied do for work, it is also my passion. I have mostly focused on creating web applications, but is also includes working with databased, cloud infrastructure, Docker containers, and more. Below are some of the projects I would like to highlight, which include school and personal projects.",
+    "Coding is not just something I studied or do for work, it is also my passion. I have mostly focused on creating web applications, but is also includes working with databased, cloud infrastructure, Docker containers, and more. Below are some of the projects I would like to highlight, which include school and personal projects.",
 };
 
 export const PROJECTS_SECTION_PORTFOLIO = {
