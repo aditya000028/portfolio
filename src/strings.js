@@ -73,6 +73,7 @@ export const WORK_EXPERIENCE_SECTION_VISIER = {
   ],
   IMAGE_PATH: "/assets/images/Visier-logo.jpg",
   IMAGE_ALT: "Visier Logo",
+  DATE_RANGE: "Jan 2022 - Aug 2022"
 };
 
 export const WORK_EXPERIENCE_SECTION_PNI_DIGITAL_MEDIA = {
@@ -98,6 +99,7 @@ export const WORK_EXPERIENCE_SECTION_PNI_DIGITAL_MEDIA = {
   ],
   IMAGE_PATH: "/assets/images/PNI-Media-logo.png",
   IMAGE_ALT: "PNI Media Logo",
+  DATE_RANGE: "Jan 2020 - Apr 2020"
 };
 
 export const PROJECTS_GREETING = {
@@ -131,6 +133,7 @@ export const PROJECTS_SECTION_PORTFOLIO = {
   ],
   IMAGE_PATH: "/assets/images/portofaditya-mobile-home-greeting.png",
   IMAGE_ALT: "Port of Aditya home greeting",
+  DATE_RANGE: "Jun 2023 - Present"
 };
 
 export const PROJECTS_SECTION_BAYTREE = {
