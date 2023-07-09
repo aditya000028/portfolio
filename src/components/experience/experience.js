@@ -12,6 +12,9 @@ function Experience(props) {
           <div className={classes.role}>
             <h1>{props.subtitle}</h1>
           </div>
+          <div className={classes.dateRange}>
+            <span className={classes.date}>{props.dateRange}</span>
+          </div>
         </div>
         <div className={classes.experienceContent}>
           {props.image == null ? null : (
