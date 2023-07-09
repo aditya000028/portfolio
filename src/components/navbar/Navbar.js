@@ -21,11 +21,6 @@ function Navbar() {
             <button>Projects</button>
           </Link>
         </li>
-        <li>
-          <Link to="/miscellaneous">
-            <button>Miscellaneous</button>
-          </Link>
-        </li>
       </ul>
     </nav>
   );

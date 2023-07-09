@@ -7,14 +7,16 @@ function Experience(props) {
       <div className={classes.content}>
         <div className={classes.experienceHeading}>
           <div className={classes.name}>
-            <h1>{props.companyName}</h1>
+            <h1>{props.title}</h1>
           </div>
           <div className={classes.role}>
-            <h1>{props.role}</h1>
+            <h1>{props.subtitle}</h1>
           </div>
         </div>
         <div className={classes.experienceContent}>
-          <img src={props.companyLogo} alt={props.altText} />
+          {props.image == null ? null : (
+            <img src={props.image} alt={props.altText} />
+          )}
           <div className={classes.experienceDescription}>
             {props.descriptions.map((description) => {
               return <p className={classes.experienceSummary}>{description}</p>;
