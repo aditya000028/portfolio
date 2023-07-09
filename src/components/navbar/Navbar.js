@@ -21,11 +21,6 @@ function Navbar() {
           <div className={classes.linkText}>Projects</div>
           </Link>
         </li>
-        <li>
-          <Link to="/miscellaneous">
-          <div className={classes.linkText}>Miscellaneous</div>
-          </Link>
-        </li>
       </ul>
     </nav>
   );
