@@ -18,6 +18,14 @@
   width: 100%;
   overflow-x: hidden;
   font-size: 200%;
+  align-items: center;
+}
+
+.experience .content .experienceHeading .dateRange {
+  display: flex;
+  justify-content: flex-end;
+  font-size: medium;
+  width: 80%;
 }
 
 .experience .content .experienceHeading .name {
