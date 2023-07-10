@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Storage } from "aws-amplify";
 import classes from "./downloadButton.module.css";
-import { MISC } from '../../strings';
+import { MISC } from "../../strings";
 
 function DownloadButton(props) {
   const [downloading, setIsDownloading] = useState(false);
@@ -15,7 +15,7 @@ function DownloadButton(props) {
     })
       .then((result) => downloadBlob(result.Body, props.newFileName))
       .catch((error) => {
-        // TODO: Show some error to the user
+        alert(MISC.DOWNLOAD_ERROR);
         console.log(error);
       })
       .finally(() => setIsDownloading(false));
