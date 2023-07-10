@@ -6,7 +6,7 @@ function PageGreeting(props) {
       <div className={classes.pageTitle}>
         <div className={classes.mainText}>
           {props.mainText.map((value) => (
-            <h1>{value}</h1>
+            <h1 key={value}>{value}</h1>
           ))}
         </div>
       </div>

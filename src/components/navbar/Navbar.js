@@ -8,17 +8,17 @@ function Navbar() {
       <ul className={classes.navItems}>
         <li>
           <Link to="/">
-            <button>Home</button>
+            <div className={classes.linkText}>Home</div>
           </Link>
         </li>
         <li>
           <Link to="/work-experience">
-            <button>Work Experience</button>
+          <div className={classes.linkText}>Work Experience</div>
           </Link>
         </li>
         <li>
           <Link to="/projects">
-            <button>Projects</button>
+          <div className={classes.linkText}>Projects</div>
           </Link>
         </li>
       </ul>
