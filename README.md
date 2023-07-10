@@ -1,9 +1,9 @@
 # Welcome to my portfolio!
 
-This app shows a little about my journey in coding, and a little bit about myself. I highlight and summarize my work experience and projects achievements and key skills that I demontrated throughout the process. I also give information about my education, and my current status in my career. 
+This app shows my journey in coding, and a little bit about myself. I highlight and summarize my work experience and projects achievements and key skills that I demontrated throughout the process. I also give information about my education, and my current status in my career. 
 \
 \
-Click [here](https://main.ds3u2qr9rubul.amplifyapp.com/) to visit my portfolio!
+Click [here](https://www.portofaditya.com/) to visit my portfolio!
 
 Although I hope to maintain this app consistently, please do not hesitate to reach out to me regarding unlisted current projects, work experience, or really about anything! 
 
@@ -16,6 +16,7 @@ For hosting, the following AWS services were used:
 - Cogito
 - IAM
 - Amplify
+- Route 53
 - CloudWatch
 
 ## Deployment
@@ -23,6 +24,8 @@ For hosting, the following AWS services were used:
 I have utilized various AWS services to put this app into action. To allow access to the files I have stored in my S3 bucket, I configured IAM Roles and policies to attach to the Cognito identity pools. 
 
 Then, I used Amplify to host the static website. This involved integrating with Github to allow continious deployment (CI/CD) onto the actual website. 
+
+Finally, I acquired a custom domain and a SSL certificate through Route 53 for increased security and an easy to remember domain
 
 ## Locally running the app
 
