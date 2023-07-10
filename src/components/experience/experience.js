@@ -21,12 +21,12 @@ function Experience(props) {
             <img src={props.image} alt={props.altText} />
           )}
           <div className={classes.experienceDescription}>
-            {props.descriptions.map((description) => {
-              return <p className={classes.experienceSummary}>{description}</p>;
+            {props.descriptions.map((description, index) => {
+              return <p key={index} className={classes.experienceSummary}>{description}</p>;
             })}
             <div className={classes.skills}>
               {props.skills.map((skill) => (
-                <Chip label={skill} variant="outlined" />
+                <Chip key={skill} label={skill} variant="outlined" />
               ))}
             </div>
           </div>
