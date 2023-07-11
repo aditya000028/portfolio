@@ -16,6 +16,7 @@ For hosting, the following AWS services were used:
 - Cogito
 - IAM
 - Amplify
+- S3
 - Route 53
 - CloudWatch
 
