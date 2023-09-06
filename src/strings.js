@@ -25,9 +25,9 @@ export const MISC = {
   DOWNLOAD_RESUME: "Download Resume",
   DOWNLOAD_TRANSCRIPT: "Download Transcript",
   DOWNLOAD_ERROR: "Error! Unable to download the file. Please try again later or contact me.",
-  RESUME_NAME: "U - Resume 4.pdf",
+  RESUME_NAME: "Aditya-Gupta-Resume.pdf",
   TRANSCRIPT_NAME: "SFU Final Transcript.pdf",
-  NEW_RESUME_NAME: "Aditya Gupta - Resume",
+  NEW_RESUME_NAME: "Aditya-Gupta-Resume",
   NEW_TRANSCRIPT_NAME: "Aditya Gupta - SFU Transcript",
   WORK_IN_PROGRESS: "This is a work in progress",
 };
