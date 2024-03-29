@@ -1,15 +1,15 @@
 export const HOME_GREETING = {
   GREETING: "Hi there.",
-  HEADLINE: "I'm Aditya Gupta - a Full Stack Developer.",
+  HEADLINE: "I'm Aditya Gupta - an AWS Certified Full Stack Developer.",
   WELCOME: "Welcome to my portfolio!",
 };
 
 export const HOME_SECTION_INTRODUCTION = {
   GREETING: "Who am I?",
   ABOUT_ME:
-    "I am Aditya Gupta, a Full Stack Developer. Funnily enough, I did not want to work with computers until university, and actually found them to be intimidating. But I took a data structures and algorithms course in my first year of university course and fell in love with coding. Fast-forward to today, and here I am coding as my passion.",
+    "I am Aditya Gupta, a Full Stack Developer. Ironically, I did not want to work with computers until university, and actually found their complexity to be intimidating. But I took a data structures and algorithms course in my first year of university course and fell in love with coding. I actually used to save my Computing Science homework for Fridays because I enjoyed it! Fast-forward to today, and here I am coding as my passion.",
   CURRENTLY:
-    "My main focus is web and software development, and I am very comfortable in both the front and back end. I have gained a year of internship experience, working for Visier and PNI Digital Media as a Full Stack Developer. Located in Kent, Washington, I am currently seeking a full-time role with an organization to jumpstart my career with.",
+    "My main focus is web and software development, and I am very comfortable in both the front and back end. I have gained a year of internship experience, working with Visier and PNI Digital Media as a Full Stack Developer. Located near Seattle, Washington, I am currently seeking a full-time role with an organization to jumpstart my career with.",
 };
 
 export const HOME_SECTION_EDUCATION = {
@@ -25,19 +25,19 @@ export const MISC = {
   DOWNLOAD_RESUME: "Download Resume",
   DOWNLOAD_TRANSCRIPT: "Download Transcript",
   DOWNLOAD_ERROR: "Error! Unable to download the file. Please try again later or contact me.",
-  RESUME_NAME: "Aditya-Gupta-Resume.pdf",
+  RESUME_NAME: "Aditya_Gupta_Resume.pdf",
   TRANSCRIPT_NAME: "SFU Final Transcript.pdf",
-  NEW_RESUME_NAME: "Aditya-Gupta-Resume",
-  NEW_TRANSCRIPT_NAME: "Aditya Gupta - SFU Transcript",
+  NEW_RESUME_NAME: "Aditya_Gupta_Resume",
+  NEW_TRANSCRIPT_NAME: "Aditya_Gupta_SFU_Transcript",
   WORK_IN_PROGRESS: "This is a work in progress",
 };
 
 export const CONTACT_ME = {
   LINKEDIN: "LinkedIn",
-  LINKEDIN_LINK: "https://www.linkedin.com/in/aditya-gupta-a28131181/",
+  LINKEDIN_LINK: "https://www.linkedin.com/in/aditya-gupta-developer/",
   GITHUB: "Github",
   GITHUB_LINK: "https://github.com/aditya000028",
-  EMAIL: "aditya.gupta_chd@yahoo.ca",
+  EMAIL: "aditya.g000028@gmail.com",
   PHONE: "+1 (425)-524-3452",
 };
 
