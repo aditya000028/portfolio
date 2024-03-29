@@ -109,6 +109,38 @@ export const PROJECTS_GREETING = {
     "Coding is not just something I studied or do for work, it is also my passion. I have mostly focused on creating web applications, but it also includes working with mobile applications (Android), databases, cloud tools and infrastructure, Docker containers, and more. Below are some of the projects I would like to highlight, which include personal and projects.",
 };
 
+export const PROJECTS_SECTION_STUDDY_BUDDIES = {
+  NAME: "Study Buddies",
+  PROJECT_TYPE: "Web Application",
+  DESCRIPTIONS: [
+    "This project holds a lot of personal significance for me. During my time in university, I often thought of the potential of an application that could bring together individuals sharing a passion for a specific subject, creating a community where they could freely share relevant information. With this idea in my mind and a surplus of time on my hands, I finally started on transforming this concept into a reality.",
+    "The initial phase of the project involved conceptualizing the application. With a pen and paper, I began sketching the user interface (UI) of the application. This method allowed me to map out the various components, features, and entities within the application. Once I had visualized and drafted the different pages, I started creating the database schema, determining the relationships between the entities.",
+    "Considering the technological infrastructure that would best align with the application's needs, I revisited my AWS Developer certification. It became clear that AWS's suite of services - including Lambda, AppSync, DynamoDB, S3, Cognito, and more - offered scalability, ease of management, and a perfect fit for the application's requirements. Therefore, I opted for AWS to power the backend of my application. For the frontend, I chose React for its popularity and user-friendliness.",
+    "This project remains a work in progress, and I am continuously dedicated to researching the intricacies of AWS services. I am actively exploring APIs, understanding how to call and manage them effectively, and more. Presently, I have set up the React interface and integrated Cognito authentication into the application.",
+    "Moving forward, my goals include implementing features such as study buddy (friend) connections, discussion groups, chat functionality, a calendar display for scheduling study meetings, notifications, and user profiles. Stay tuned for further updates on this journey!"
+  ],
+  SKILLS: [
+    "React",
+    "Javascript",
+    "HTML",
+    "CSS",
+    "UI/UX Design",
+    "AWS Amplify",
+    "AWS Cognito",
+    "AWS S3",
+    "AWS IAM",
+    "AWS Lambda",
+    "AWS DynamoDB",
+    "AWS AppSync",
+    "API",
+    "CI/CD",
+    "Git"
+  ],
+  IMAGE_PATH: null,
+  IMAGE_ALT: null,
+  DATE_RANGE: "Mar 2024 - Present"
+};
+
 export const PROJECTS_SECTION_PORTFOLIO = {
   NAME: "Port of Aditya",
   PROJECT_TYPE: "Portfolio Web Application",
@@ -168,6 +200,7 @@ export const PROJECTS_SECTION_BAYTREE = {
   ],
   IMAGE_PATH: "/assets/images/Baytree-mentor-dashboard.png",
   IMAGE_ALT: "BayTree mentor dashboard",
+  DATE_RANGE: "Sep 2021 - Apr 2023"
 };
 
 export const PROJECTS_SECTION_LYRICAL = {
@@ -198,6 +231,7 @@ export const PROJECTS_SECTION_LYRICAL = {
   ],
   IMAGE_PATH: null,
   IMAGE_ALT: null,
+  DATE_RANGE: "Jun 2021 - Sep 2021"
 };
 
 export const PROJECTS_SECTION_SABS = {
@@ -221,6 +255,7 @@ export const PROJECTS_SECTION_SABS = {
   ],
   IMAGE_PATH: null,
   IMAGE_ALT: null,
+  DATE_RANGE: "Feb 2021 - Apr 2021"
 };
 
 export const PROJECTS_SECTION_FITCHECK = {
@@ -247,4 +282,5 @@ export const PROJECTS_SECTION_FITCHECK = {
   ],
   IMAGE_PATH: "/assets/images/Fitcheck-upload-pic.png",
   IMAGE_ALT: "Fitcheck uploading picture",
+  DATE_RANGE: "Sep 2022 - Dec 2022"
 };
