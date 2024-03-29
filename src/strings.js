@@ -1,15 +1,15 @@
 export const HOME_GREETING = {
   GREETING: "Hi there.",
-  HEADLINE: "I'm Aditya Gupta - a Full Stack Developer.",
+  HEADLINE: "I'm Aditya Gupta - an AWS Certified Full Stack Developer.",
   WELCOME: "Welcome to my portfolio!",
 };
 
 export const HOME_SECTION_INTRODUCTION = {
   GREETING: "Who am I?",
   ABOUT_ME:
-    "I am Aditya Gupta, a Full Stack Developer. Funnily enough, I did not want to work with computers until university, and actually found them to be intimidating. But I took a data structures and algorithms course in my first year of university course and fell in love with coding. Fast-forward to today, and here I am coding as my passion.",
+    "I am Aditya Gupta, a Full Stack Developer. Ironically, I did not want to work with computers until university, and actually found their complexity to be intimidating. But I took a data structures and algorithms course in my first year of university course and fell in love with coding. I actually used to save my Computing Science homework for Fridays because I enjoyed it! Fast-forward to today, and here I am coding as my passion.",
   CURRENTLY:
-    "My main focus is web and software development, and I am very comfortable in both the front and back end. I have gained a year of internship experience, working for Visier and PNI Digital Media as a Full Stack Developer. Located in Kent, Washington, I am currently seeking a full-time role with an organization to jumpstart my career with.",
+    "My main focus is web and software development, and I am very comfortable in both the front and back end. I have gained a year of internship experience, working with Visier and PNI Digital Media as a Full Stack Developer. Located near Seattle, Washington, I am currently seeking a full-time role with an organization to jumpstart my career with.",
 };
 
 export const HOME_SECTION_EDUCATION = {
@@ -25,19 +25,19 @@ export const MISC = {
   DOWNLOAD_RESUME: "Download Resume",
   DOWNLOAD_TRANSCRIPT: "Download Transcript",
   DOWNLOAD_ERROR: "Error! Unable to download the file. Please try again later or contact me.",
-  RESUME_NAME: "Aditya-Gupta-Resume.pdf",
+  RESUME_NAME: "Aditya_Gupta_Resume.pdf",
   TRANSCRIPT_NAME: "SFU Final Transcript.pdf",
-  NEW_RESUME_NAME: "Aditya-Gupta-Resume",
-  NEW_TRANSCRIPT_NAME: "Aditya Gupta - SFU Transcript",
+  NEW_RESUME_NAME: "Aditya_Gupta_Resume",
+  NEW_TRANSCRIPT_NAME: "Aditya_Gupta_SFU_Transcript",
   WORK_IN_PROGRESS: "This is a work in progress",
 };
 
 export const CONTACT_ME = {
   LINKEDIN: "LinkedIn",
-  LINKEDIN_LINK: "https://www.linkedin.com/in/aditya-gupta-a28131181/",
+  LINKEDIN_LINK: "https://www.linkedin.com/in/aditya-gupta-developer/",
   GITHUB: "Github",
   GITHUB_LINK: "https://github.com/aditya000028",
-  EMAIL: "aditya.gupta_chd@yahoo.ca",
+  EMAIL: "aditya.g000028@gmail.com",
   PHONE: "+1 (425)-524-3452",
 };
 
@@ -109,6 +109,38 @@ export const PROJECTS_GREETING = {
     "Coding is not just something I studied or do for work, it is also my passion. I have mostly focused on creating web applications, but it also includes working with mobile applications (Android), databases, cloud tools and infrastructure, Docker containers, and more. Below are some of the projects I would like to highlight, which include personal and projects.",
 };
 
+export const PROJECTS_SECTION_STUDDY_BUDDIES = {
+  NAME: "Study Buddies",
+  PROJECT_TYPE: "Web Application",
+  DESCRIPTIONS: [
+    "This project holds a lot of personal significance for me. During my time in university, I often thought of the potential of an application that could bring together individuals sharing a passion for a specific subject, creating a community where they could freely share relevant information. With this idea in my mind and a surplus of time on my hands, I finally started on transforming this concept into a reality.",
+    "The initial phase of the project involved conceptualizing the application. With a pen and paper, I began sketching the user interface (UI) of the application. This method allowed me to map out the various components, features, and entities within the application. Once I had visualized and drafted the different pages, I started creating the database schema, determining the relationships between the entities.",
+    "Considering the technological infrastructure that would best align with the application's needs, I revisited my AWS Developer certification. It became clear that AWS's suite of services - including Lambda, AppSync, DynamoDB, S3, Cognito, and more - offered scalability, ease of management, and a perfect fit for the application's requirements. Therefore, I opted for AWS to power the backend of my application. For the frontend, I chose React for its popularity and user-friendliness.",
+    "This project remains a work in progress, and I am continuously dedicated to researching the intricacies of AWS services. I am actively exploring APIs, understanding how to call and manage them effectively, and more. Presently, I have set up the React interface and integrated Cognito authentication into the application.",
+    "Moving forward, my goals include implementing features such as study buddy (friend) connections, discussion groups, chat functionality, a calendar display for scheduling study meetings, notifications, and user profiles. Stay tuned for further updates on this journey!"
+  ],
+  SKILLS: [
+    "React",
+    "Javascript",
+    "HTML",
+    "CSS",
+    "UI/UX Design",
+    "AWS Amplify",
+    "AWS Cognito",
+    "AWS S3",
+    "AWS IAM",
+    "AWS Lambda",
+    "AWS DynamoDB",
+    "AWS AppSync",
+    "API",
+    "CI/CD",
+    "Git"
+  ],
+  IMAGE_PATH: null,
+  IMAGE_ALT: null,
+  DATE_RANGE: "Mar 2024 - Present"
+};
+
 export const PROJECTS_SECTION_PORTFOLIO = {
   NAME: "Port of Aditya",
   PROJECT_TYPE: "Portfolio Web Application",
@@ -168,6 +200,7 @@ export const PROJECTS_SECTION_BAYTREE = {
   ],
   IMAGE_PATH: "/assets/images/Baytree-mentor-dashboard.png",
   IMAGE_ALT: "BayTree mentor dashboard",
+  DATE_RANGE: "Sep 2021 - Apr 2023"
 };
 
 export const PROJECTS_SECTION_LYRICAL = {
@@ -198,6 +231,7 @@ export const PROJECTS_SECTION_LYRICAL = {
   ],
   IMAGE_PATH: null,
   IMAGE_ALT: null,
+  DATE_RANGE: "Jun 2021 - Sep 2021"
 };
 
 export const PROJECTS_SECTION_SABS = {
@@ -221,6 +255,7 @@ export const PROJECTS_SECTION_SABS = {
   ],
   IMAGE_PATH: null,
   IMAGE_ALT: null,
+  DATE_RANGE: "Feb 2021 - Apr 2021"
 };
 
 export const PROJECTS_SECTION_FITCHECK = {
@@ -247,4 +282,5 @@ export const PROJECTS_SECTION_FITCHECK = {
   ],
   IMAGE_PATH: "/assets/images/Fitcheck-upload-pic.png",
   IMAGE_ALT: "Fitcheck uploading picture",
+  DATE_RANGE: "Sep 2022 - Dec 2022"
 };
