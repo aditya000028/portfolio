@@ -17,7 +17,7 @@ function Experience(props) {
           </div>
         </div>
         <div className={classes.experienceContent}>
-          {props.image == null ? null : (
+          {props.image == null || props.image.length === 0 ? null : (
             <img src={props.image} alt={props.altText} />
           )}
           <div className={classes.experienceDescription}>
