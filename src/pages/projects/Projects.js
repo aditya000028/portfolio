@@ -5,7 +5,8 @@ import {
   PROJECTS_SECTION_BAYTREE,
   PROJECTS_SECTION_LYRICAL,
   PROJECTS_SECTION_SABS,
-  PROJECTS_SECTION_FITCHECK
+  PROJECTS_SECTION_FITCHECK,
+  PROJECTS_SECTION_STUDDY_BUDDIES
 } from "../../strings";
 import Experience from "../../components/experience/experience";
 
@@ -21,12 +22,22 @@ function ProjectsPage() {
         description={PROJECTS_GREETING.DESCRIPTION}
       />
       <Experience
+        title={PROJECTS_SECTION_STUDDY_BUDDIES.NAME}
+        subtitle={PROJECTS_SECTION_STUDDY_BUDDIES.PROJECT_TYPE}
+        descriptions={PROJECTS_SECTION_STUDDY_BUDDIES.DESCRIPTIONS}
+        skills={PROJECTS_SECTION_STUDDY_BUDDIES.SKILLS}
+        image={PROJECTS_SECTION_STUDDY_BUDDIES.IMAGE_PATH}
+        altText={PROJECTS_SECTION_STUDDY_BUDDIES.IMAGE_ALT}
+        dateRange={PROJECTS_SECTION_STUDDY_BUDDIES.DATE_RANGE}
+      />
+      <Experience
         title={PROJECTS_SECTION_PORTFOLIO.NAME}
         subtitle={PROJECTS_SECTION_PORTFOLIO.PROJECT_TYPE}
         descriptions={PROJECTS_SECTION_PORTFOLIO.DESCRIPTIONS}
         skills={PROJECTS_SECTION_PORTFOLIO.SKILLS}
         image={PROJECTS_SECTION_PORTFOLIO.IMAGE_PATH}
         altText={PROJECTS_SECTION_PORTFOLIO.IMAGE_ALT}
+        dateRange={PROJECTS_SECTION_PORTFOLIO.DATE_RANGE}
       />
       <Experience
         title={PROJECTS_SECTION_BAYTREE.NAME}
@@ -35,6 +46,7 @@ function ProjectsPage() {
         skills={PROJECTS_SECTION_BAYTREE.SKILLS}
         image={PROJECTS_SECTION_BAYTREE.IMAGE_PATH}
         altText={PROJECTS_SECTION_BAYTREE.IMAGE_ALT}
+        dateRange={PROJECTS_SECTION_BAYTREE.DATE_RANGE}
       />
       <Experience
         title={PROJECTS_SECTION_LYRICAL.NAME}
@@ -43,6 +55,7 @@ function ProjectsPage() {
         skills={PROJECTS_SECTION_LYRICAL.SKILLS}
         image={PROJECTS_SECTION_LYRICAL.IMAGE_PATH}
         altText={PROJECTS_SECTION_LYRICAL.IMAGE_ALT}
+        dateRange={PROJECTS_SECTION_LYRICAL.DATE_RANGE}
       />
       <Experience
         title={PROJECTS_SECTION_SABS.NAME}
@@ -51,6 +64,7 @@ function ProjectsPage() {
         skills={PROJECTS_SECTION_SABS.SKILLS}
         image={PROJECTS_SECTION_SABS.IMAGE_PATH}
         altText={PROJECTS_SECTION_SABS.IMAGE_ALT}
+        dateRange={PROJECTS_SECTION_SABS.DATE_RANGE}
       />
       <Experience
         title={PROJECTS_SECTION_FITCHECK.NAME}
@@ -59,6 +73,7 @@ function ProjectsPage() {
         skills={PROJECTS_SECTION_FITCHECK.SKILLS}
         image={PROJECTS_SECTION_FITCHECK.IMAGE_PATH}
         altText={PROJECTS_SECTION_FITCHECK.IMAGE_ALT}
+        dateRange={PROJECTS_SECTION_FITCHECK.DATE_RANGE}
       />
     </div>
   );
